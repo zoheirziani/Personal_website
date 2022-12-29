@@ -69,7 +69,74 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    
+    <main>
+        <section id="biography">
+            <div class="biography">
+                <h2>Biography</h2>
+                <p>I am a postdoctoral researcher at Lille University in the Photonic team.</p>
+                <p>I obtained the PhD in physics with a study of the nonlinear phenomena that occur in metallic nanoparticles.</p>
+                <p>
+                    Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+                <p>
+                    Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+                <p>
+                    I have experience in the development of information systems and in the development of applications and software for various purposes, focused on data analysis and processing.
+                    In my work, I used different programming languages ​​(Python, R, C ++, Matlab) depending on the tasks.
+                    Therefore, I have considerable experience in quickly reorienting and learning new things.
+                </p>
+                <i class="fas fa-download"></i> Download my <a href="/pdf/CV-French.pdf">resumé</a>.
+            </div>
+            <aside>
+                <img src="/images/profile.png" alt="Zoheir Ziani photo">
+                <h2>Zoheir Ziani</h2>
+                <p>Postdoc researcher in nonlinear optics</p>
+                <p><a href="#">University of Lille</a></p>
+                
+                <p>
+                    <a href="https://www.facebook.com/ziani.zoheir/">
+                        <i class="fa fa-facebook-official"></i>
+                    </a>
+                    <a href="https://twitter.com/ZoheirZiani" title="Follow me on Twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/zoheir-ziani" title="See my LinkedIn profil">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </p>
+            </aside>
+         </section>
+         <hr>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <form id="contact-form" action="contact.php" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
 
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px;"></textarea>
+                <button type="button" onclick="contact()">Submit</button>
+            </form>
+        </section>
+    </main>
+    
     <footer>
         <p>Find me on social media.</p>
         <a href="https://www.facebook.com/ziani.zoheir/">
